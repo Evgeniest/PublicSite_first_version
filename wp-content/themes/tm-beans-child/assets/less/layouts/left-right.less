@@ -1,0 +1,42 @@
+.left-right-container{
+  max-width: 900px;
+  margin: 0 auto;
+  hr{
+    margin: 35px 0;
+    @media (min-width: @breakpoint-small){
+      display: block;
+    }
+
+    &:last-child{
+      display: none;
+    }
+  }
+}
+.section.left-right-section{
+  padding: 8.67vw 5%;
+  @media (max-width: @breakpoint-medium){
+     padding: 14.69vw 5%;
+     .uk-grid {
+       margin-left: 0;
+     }
+     .left-right-image, .left-right-text {
+       padding-left: 0;
+     }
+  }
+  .section-title{
+    margin-bottom: 30px;
+  }
+}
+.left-right-text{
+  max-width: 400px;
+  margin: 0 auto;
+}
+.left-right-image{
+  margin: 20px 0;
+  img{
+    margin: 0 auto;
+    display: block;
+  }
+}
+
+

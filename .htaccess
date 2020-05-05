@@ -1,0 +1,75 @@
+# BEGIN YOAST REDIRECTS
+<IfModule mod_rewrite.c>
+RewriteEngine On
+Redirect 301 "/personal-trainer" "/personal-trainer-insurance"
+Redirect 301 "/photographer" "/photographer-insurance"
+Redirect 301 "/contractors" "/contractors-insurance"
+Redirect 301 "/affiliate_terms" "/affiliate-terms"
+Redirect 301 "/about_us" "/about-us"
+Redirect 301 "/licences" "/insurance-licenses"
+Redirect 301 "/terms_of_use" "/terms-of-use"
+Redirect 301 "/privacy_policy" "/privacy-policy"
+Redirect 301 "/contact_us" "/contact-us"
+Redirect 301 "/plumbers" "/plumbers-insurance"
+Redirect 301 "/licenses" "/insurance-licenses"
+Redirect 301 "/nesta" "/nesta-insurance"
+Redirect 301 "/category/meet-next-insurance" "/category/next-insurance"
+Redirect 301 "/category/next-insurance" "/"
+Redirect 301 "/category/class-of-business" "/"
+Redirect 410 "/overview-2"
+Redirect 410 "/personal-trainer-salary"
+Redirect 410 "/become-personal-trainer"
+Redirect 301 "/category/blog" "/category/blog-posts"
+Redirect 301 "/blog-subscribe-thank" "/blog-subscribe-thank-you"
+Redirect 301 "/how-to-protect-americas-greatest-resource-small-businesses" "/blog/how-to-protect-americas-greatest-resource-small-businesses"
+Redirect 301 "/spotlight-series-team" "/blog/spotlight-series-team"
+Redirect 301 "/dont-offer-insurance-types-small-businesses" "/blog/dont-offer-insurance-types-small-businesses"
+Redirect 301 "/first-ever-chatbot-small-business-insurance-said-insurance-cant-easy" "/blog/first-ever-chatbot-small-business-insurance-said-insurance-cant-easy"
+Redirect 301 "/proud-announce-series-fundraising-round-whopping-29-million" "/blog/proud-announce-series-fundraising-round-whopping-29-million"
+Redirect 301 "/do-it-yourself-proof-of-insurance" "/blog/do-it-yourself-proof-of-insurance"
+Redirect 301 "/new-even-simpler-experience" "/blog/new-even-simpler-experience"
+Redirect 301 "/buying-buy-general-liability-policy" "/blog/buying-buy-general-liability-policy"
+Redirect 301 "/5-tips-making-smart-choices-personal-trainer-insurance" "/blog/5-tips-making-smart-choices-personal-trainer-insurance"
+Redirect 301 "/next-generation-insurance" "/blog/next-generation-insurance"
+Redirect 301 "/landing-page" "/business-insurance-quote"
+Redirect 301 "/Insurance/PersonalTrainer" "/personal-trainer-insurance"
+Redirect 301 "/lead-form" "/personal-trainer-lead-form"
+Redirect 301 "/blog/1582" "/blog/monthly-payments-luxury-must-small-business-insurance"
+Redirect 302 "/NASM" "https://track.next-insurance.com/links?serial=91312&channel=affiliation&source=partners&affiliate_id=3110&campaign=nasm&adgroup=nasm-brochure"
+Redirect 302 "/NASMoptima" "https://track.next-insurance.com/links?serial=91312&channel=affiliation&source=partners&affiliate_id=3110&campaign=nasm&adgroup=nasm-conference"
+Redirect 302 "/afaa" "https://track.next-insurance.com/links?serial=91313&channel=affiliation&source=partners&affiliate_id=3120&campaign=afaa&adgroup=afaa-brochure"
+Redirect 302 "/AFAA" "https://track.next-insurance.com/links?serial=91313&channel=affiliation&source=partners&affiliate_id=3120&campaign=afaa&adgroup=afaa-brochure"
+Redirect 302 "/nasm" "https://track.next-insurance.com/links?serial=91312&channel=affiliation&source=partners&affiliate_id=3110&campaign=nasm&adgroup=nasm-brochure"
+Redirect 302 "/nasmoptima" "https://track.next-insurance.com/links?serial=91312&channel=affiliation&source=partners&affiliate_id=3110&campaign=nasm&adgroup=nasm-conference"
+Redirect 302 "/NASMOPTIMA" "https://track.next-insurance.com/links?serial=91312&channel=affiliation&source=partners&affiliate_id=3110&campaign=nasm&adgroup=nasm-conference"
+Redirect 301 "/category/personal-trainer/how-to-become-a-personal-trainer" "/category/how-to-become-a-personal-trainer"
+Redirect 301 "/category/how-to-become-a-personal-trainer" "/category/personal-trainer/how-to-become-a-personal-trainer"
+Redirect 301 "/blog/waiver-guarantee-legal-protection" "/blog/blogwaiver-guarantee-legal-protection"
+</IfModule>
+# END YOAST REDIRECTS
+
+# BEGIN Far Future Expiration Plugin
+<IfModule mod_expires.c>
+ExpiresActive on
+<FilesMatch "\.(gif|jpeg|jpg|png|ico|js|css|swf)$">
+ExpiresDefault "access plus 8760 hours"
+</FilesMatch>
+</IfModule>
+# END Far Future Expiration Plugin
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# BEGIN EWWWIO
+
+# END EWWWIO
+

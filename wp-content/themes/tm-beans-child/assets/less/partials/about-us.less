@@ -1,0 +1,163 @@
+.page-template-about-page-php {
+    .tm-primary-menu.uk-navbar {
+        //display: none;
+    }
+    .about-us.header-area-section {
+        position: relative;
+        .header-area-img {
+            img {
+                width: 100%;
+            }
+        }
+        .header-area-title {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 84px;
+            color: white;
+            font-family: 'Lato-Light';
+            width: 75%;
+            text-align: center;
+            @media (max-width: @breakpoint-medium){
+                font-size: 40px;
+            }
+        }
+    }
+    .section {
+        padding: 3.85vw 5%;
+        @media (max-width: @breakpoint-medium){
+            padding: 9.69vw 5%;
+        }
+    }
+    .three-logos-container {
+        .logo-title.item-title {
+            font-family: 'Lato-Regular';
+            width: 14.55vw;
+            margin: auto;
+            margin-top: 0.77vw;
+            @media (max-width: @breakpoint-medium){
+                width: 65vw;
+                margin-top: 2.5vw;
+            }
+        }
+    }
+    .leaders-section, .three-logos-section {
+        .uk-container {
+            max-width: none;
+            padding: 0 7%;
+        }
+        .container-900 {
+            max-width: none;
+            margin: 0 auto;
+        }
+    }
+    .logo-image img {
+        border-radius: 0;
+    }
+    .leaders-container {
+        justify-content: center;
+        .leader-item {
+            color: #3c3f44;
+            margin-bottom: 0.7vw;
+            .leader-image {
+                width: 148px;
+                margin: auto;
+                margin-bottom: 0.7vw;
+                @media (min-width: @breakpoint-xlarge){
+                    width: 10.35vw;
+                }
+                @media (max-width: @breakpoint-medium){
+                    margin-bottom: 3.13vw;
+                }
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+                
+            }
+            .leader-name {
+                font-family: 'Lato-SemiBold';
+                color: black;
+            }
+            .leader-bio {
+                margin-bottom: 25px;
+            }
+            .leader-name, .leader-bio {
+                font-size: 21px;
+                line-height: normal;
+            }
+            .leader-experiense-wrapper, .leader-education-wrapper {
+                font-size: 17px;
+                line-height: 22px;
+                .title {
+                    line-height: normal;
+                    color: black;
+                    font-family: 'Lato-SemiBold';
+                }
+            }
+        }
+    }
+    .six-boxes-section {
+        display: flex;
+        flex-wrap: wrap;
+        .six-box-item {
+            width: 33.33%;
+            height: 16.92vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @media (max-width: @breakpoint-medium) {
+                width: 100%;
+                 height: 75.63vw;
+            }
+
+            .six-box-section-title {
+                color: white;
+                font-size: 58px;
+                font-family: 'Lato-Light';
+                line-height: normal;
+            }
+            .six-box-section-subtitle {
+                color: white;
+                font-family: 'Lato-SemiBold';
+                font-size: 17px;
+                line-height: normal;
+            }
+        }
+    }
+    .logos-list-section {
+        .uk-container-center {
+            margin-bottom: 0;
+        }
+        .logos-list-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            .logo-list-item {
+                @media (max-width: @breakpoint-medium) {
+                    margin-bottom: 6.25vw;
+                }
+
+            }
+        }
+    }
+    .map-section {
+        .item-subtitle {
+            margin-bottom: 10px;
+        }
+    }
+
+
+}
+@media (max-width: 1540px) and (min-width:900px) {
+    .tm-header.header-button .uk-button {
+        width: 180px;
+        top: 53px;
+        right:0;
+    }
+    .page-template-about-page .header-button{
+        height:110px;
+    }
+}

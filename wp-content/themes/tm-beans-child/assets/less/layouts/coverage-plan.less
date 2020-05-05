@@ -1,0 +1,126 @@
+.section.coverage-plans-section {
+  @media (min-width: @breakpoint-medium){
+    padding-bottom: 0;
+  }
+}
+
+.coverage-plans-container {
+  @media (min-width: @breakpoint-medium){
+    position: relative;
+    top: 50px;
+  }
+  padding: 0 5%;
+  @media (max-width: @breakpoint-medium-max){
+    margin-left: 25px !important;
+  }
+}
+
+.coverage-plan-item {
+  border: 1px solid @global-border;
+  border-radius: 0 0 4px 4px;
+  @media (min-width: @breakpoint-medium){
+    border-right: none;
+  }
+
+  @media (max-width: @breakpoint-small-max){
+    max-width: 400px;
+    margin: 20px auto 0;
+  }
+  &:first-child{
+    border-radius: 0 0 4px 4px;
+    @media (min-width: @breakpoint-medium){
+      border-radius: 0 0 0 4px;
+    }
+
+    .uk-panel-teaser{
+      border-radius:4px 4px 0 0;
+      @media (min-width: @breakpoint-medium){
+        border-radius:4px 0 0 0;
+      }
+    }
+  }
+  &:last-child {
+    border-right: 1px solid @global-border;
+    border-radius: 0 0 4px 4px;
+    .uk-panel-teaser{
+      border-radius:4px 4px 0 0;
+    }
+  }
+  .uk-panel-teaser {
+    background: @blue-grey;
+    padding: 30px 20px 10px;
+    &.highlight {
+      background: @green;
+    }
+    &.high {
+      border-radius:4px 4px 0 0;
+      @media (min-width: @breakpoint-medium){
+        position: relative;
+        top: -18px;
+
+        & + .coverage-content {
+          position: relative;
+          top: -18px;
+        }
+      }
+
+    }
+  }
+}
+
+.coverage-title {
+  font-family: @font-medium;
+  @media (min-width: @breakpoint-medium){
+    font-size: 32px;
+  }
+  font-size: 40px;
+  color: @white;
+  text-transform: capitalize;
+  margin: 15px 0;
+}
+
+.popular {
+  font-size: 12px;
+  color: #c5fff5;
+}
+
+.coverage-subtitle {
+  @media (min-width: @breakpoint-medium){
+    font-size: 19px;
+    line-height: 22px;
+  }
+  color: @white;
+  margin-top: 5px;
+     p{
+        font-family: Lato-regular;
+        font-size: 17px;
+        line-height: 1.29;
+     }
+}
+.price {
+  color: black;
+  font-size: 20px;
+  @media (min-width: @breakpoint-medium){
+    font-size: 17px;
+    line-height: 22px;
+  }
+  line-height: 1.2;
+  margin-top: 30px;
+}
+
+.coverage-content {
+  color: #4d5156;
+
+  font-size: 15px;
+  p {
+    margin: 5px 0 5px;
+  }
+}
+
+.section.services-list-section{
+  padding-top: 100px;
+  hr{
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+}
